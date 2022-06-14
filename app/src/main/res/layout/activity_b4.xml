@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b4">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aurora" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="272dp"
+        android:layout_height="273dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="84dp"
+        android:text="Geleceğe dair kaygı duymak, gelecekte başarısız olacağımız endişesidir. Başarısız olacağımızı düşündüğümüz zamanlarda kendimize dair negatif şeyler düşünmeye başlarız. Bu tutumumuz kendimize olan güvenimizi zedeleyebilir ve çaba gösterme konusunda kendimizde yeterli gücü bulamamamıza sebep olabilir. Bunun sonuncunda da gerçekten başarısız olabiliriz. Bunun yerine daha önce üstesinden geldiğiniz zorlukları ve kişisel gücünüzü kendinize hatırlatacak ifadeler kullanmak daha faydalı olabilir."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
